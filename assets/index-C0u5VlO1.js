@@ -90440,11 +90440,7 @@ const multiLanguage = [{
         link1: "faq"
     }]
       , [c0,u0] = reactExports.useState(!1)
-      , [p0,b0] = reactExports.useState({
-        lan: eng,
-        name: "English",
-        symbol: "en"
-    });
+    ;
     console.log("activeLanugage", p0);
     const {address: M0, isConnecting: O0} = useAccount();
     useDisconnect();
