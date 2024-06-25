@@ -85702,7 +85702,11 @@ const BuyCard = ()=>{
         icon: base,
         name: "BASE",
         chainid: 8453
-    }, ]
+    }, {
+        icon: eth,
+        name: "ETH",
+        chainid: 1
+    }]
       , [x0,W0] = reactExports.useState({
         icon: eth,
         name: "ETH",
