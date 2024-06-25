@@ -90640,7 +90640,7 @@ const multiLanguage = [{
                                         },
                                         borderRadius: "15px",
                                         background: "#1CA5F9",
-                                        borderColor: "#1CA5F9",
+                                        borderColor: "black",
                                         "&:hover": {
                                             background: "#EE9E2A"
                                         }
