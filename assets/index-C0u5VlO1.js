@@ -90706,38 +90706,7 @@ const multiLanguage = [{
                                                 borderRadius: "10px"
                                             }
                                         },
-                                        children: multiLanguage.map((W0,S0)=>jsxRuntimeExports.jsxs(Box, {
-                                            onClick: ()=>{
-                                                x0(W0.symbol),
-                                                W0.symbol === C0.language && b0(W0)
-                                            }
-                                            ,
-                                            sx: {
-                                                textTransform: "capitalize",
-                                                background: " linear-gradient(136.57deg, rgba(175, 0, 255, 0.245) 4.67%, rgba(0, 87, 255, 0.35) 93.54%)",
-                                                borderRadius: "10px",
-                                                px: 1,
-                                                py: .5,
-                                                display: "flex",
-                                                alignItems: "center",
-                                                gap: "0px 10px",
-                                                cursor: "pointer",
-                                                fontFamily: "Poppins",
-                                                color: "#fff",
-                                                mr: 1,
-                                                "&:hover": {
-                                                    background: "#BDE6FD"
-                                                }
-                                            },
-                                            children: [jsxRuntimeExports.jsx("img", {
-                                                src: W0.lan,
-                                                alt: "",
-                                                srcSet: "",
-                                                style: {
-                                                    width: "25px"
-                                                }
-                                            }), W0.name]
-                                        }, S0))
+                                    
                                     })
                                 })]
                             })]
