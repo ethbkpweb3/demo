@@ -1,0 +1,108 @@
+@import"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";@import"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";@import"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap";.cool-link:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #1ca5f9;
+    transition: width .3s
+}
+
+.cool-link:hover:after {
+    width: 100%
+}
+
+.wallet-connect-modal {
+    z-index: 9999!important
+}
+
+.image-bounce {
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: mover1
+}
+
+@keyframes mover1 {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-20px)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+
+.image-bounce1 {
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: mover2
+}
+
+@keyframes mover2 {
+    0% {
+        transform: translate(0)
+    }
+
+    50% {
+        transform: translate(-20px)
+    }
+
+    to {
+        transform: translate(0)
+    }
+}
+
+.image-bounce01 {
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: mover01
+}
+
+progress#file::-webkit-progress-bar {
+    background: linear-gradient(90deg,#7907ad33,#2400ff33);
+    border-radius: 5px;
+    height: 8px;
+    border: 1px solid none
+}
+
+progress#file::-webkit-progress-value {
+    background: linear-gradient(90deg,#b411ff,#1ca5f9);
+    border-radius: 5px;
+    height: 8px
+}
+
+progress#file::-moz-progress-bar {
+    background: linear-gradient(90deg,#b411ff,#1ca5f9);
+    border-radius: 5px;
+    height: 8px
+}
+
+progress#file {
+    background: linear-gradient(90deg,#7907ad33,#2400ff33);
+    border-radius: 5px;
+    height: 8px
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
