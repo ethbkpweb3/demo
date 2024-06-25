@@ -90646,6 +90646,17 @@ const multiLanguage = [{
                                     },
                                     children: e0("BuyNow")
                                 })
+                            }),jsxRuntimeExports.jsx(Box, {
+                                sx: {
+                                    display: "flex",
+                                    justifyContent: "flex-end",
+                                    alignItems: "center"
+                                },
+                                children: iconArray$1.map(({icon: W0, link: S0},E0)=>jsxRuntimeExports.jsx(IconButton, {
+                                    href: S0,
+                                    target: "_blank",
+                                    children: W0
+                                }, E0))
                             })]
                         })]
                     })]
