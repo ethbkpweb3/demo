@@ -90432,7 +90432,10 @@ const multiLanguage = [{
     }, {
         name: e0("Roadmap"),
         link1: "roadmap"
-    },  {
+    }, {
+        name: e0("Howtobuy"),
+        link1: "howtobuy"
+    }, {
         name: e0("FAQ"),
         link1: "faq"
     }]
