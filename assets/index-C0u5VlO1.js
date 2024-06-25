@@ -90633,7 +90633,7 @@ const multiLanguage = [{
                                         width: "200px",
                                         px: 1,
                                         py: 1.5,
-                                        color: "#fff",
+                                        color: "#fff",  borderColor: "black",
                                         fontSize: {
                                             xs: "15px",
                                             md: "15px"
@@ -90642,7 +90642,7 @@ const multiLanguage = [{
                                         background: "#1CA5F9",
                                         borderColor: "black",
                                         "&:hover": {
-                                            background: "#EE9E2A"
+                                            background: "#EE9E2A",  borderColor: "black",
                                         }
                                     },
                                     children: e0("BuyNow")
