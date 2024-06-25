@@ -90646,69 +90646,6 @@ const multiLanguage = [{
                                     },
                                     children: e0("BuyNow")
                                 })
-                            }), jsxRuntimeExports.jsxs(Box, {
-                                sx: {
-                                    position: "relative"
-                                },
-                                children: [jsxRuntimeExports.jsxs(Box, {
-                                    onClick: ()=>u0(!c0),
-                                    sx: {
-                                        borderRadius: "72px",
-                                        border: "1px solid #FFF",
-                                        width: "66px",
-                                        height: "50px",
-                                        display: "flex",
-                                        justifyContent: "center",
-                                        alignItems: "center",
-                                        gap: "0px 5px"
-                                    },
-                                    children: [jsxRuntimeExports.jsx("img", {
-                                        src: p0 == null ? void 0 : p0.lan,
-                                        alt: "",
-                                        srcSet: "",
-                                        style: {
-                                            width: "25px"
-                                        }
-                                    }), jsxRuntimeExports.jsx(default_1, {
-                                        sx: {
-                                            color: "#fff"
-                                        }
-                                    })]
-                                }), c0 && jsxRuntimeExports.jsx(Box, {
-                                    sx: {
-                                        flexShrink: 0,
-                                        borderRadius: "6px",
-                                        background: "linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(137deg, #AF00FF 5.38%, #0057FF 98.26%)",
-                                        boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.25)",
-                                        position: "absolute",
-                                        top: "73px",
-                                        right: "-100px",
-                                        padding: "20px"
-                                    },
-                                    children: jsxRuntimeExports.jsx(Box, {
-                                        sx: {
-                                            width: "222px",
-                                            height: "304px",
-                                            display: "flex",
-                                            flexDirection: "column",
-                                            gap: "10px 0px",
-                                            overflowY: "scroll",
-                                            "&::-webkit-scrollbar": {
-                                                width: "4px"
-                                            },
-                                            "&::-webkit-scrollbar-track": {
-                                                background: "rgba(255, 255, 255, 0.50)",
-                                                width: "1.5px"
-                                            },
-                                            "&::-webkit-scrollbar-thumb": {
-                                                width: "4px",
-                                                background: "#269CFA",
-                                                borderRadius: "10px"
-                                            }
-                                        },
-                                    
-                                    })
-                                })]
                             })]
                         })]
                     })]
