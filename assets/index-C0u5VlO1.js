@@ -91035,12 +91035,8 @@ function Header({children: e0}) {
                                 borderRadius: "10px"
                             }
                         },
-                        children: multiLanguage.map((R0,N0)=>jsxRuntimeExports.jsxs(Box, {
-                            onClick: ()=>{
-                                C0(R0.symbol),
-                                R0.symbol === u0.language && c0(R0)
-                            }
-                            ,
+                  
+                            
                             sx: {
                                 textTransform: "capitalize",
                                 background: " linear-gradient(136.57deg, rgba(175, 0, 255, 0.245) 4.67%, rgba(0, 87, 255, 0.35) 93.54%)",
