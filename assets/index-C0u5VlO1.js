@@ -90638,10 +90638,10 @@ const multiLanguage = [{
                                             xs: "15px",
                                             md: "15px"
                                         },
-                                        borderRadius: "35px",
+                                        borderRadius: "15px",
                                         background: "#1CA5F9",
                                         "&:hover": {
-                                            background: "#1CA5F9"
+                                            background: "#EE9E2A"
                                         }
                                     },
                                     children: e0("BuyNow")
