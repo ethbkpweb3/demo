@@ -14,7 +14,10 @@
 .wallet-connect-modal {
     z-index: 9999!important
 }
+.css-ia2bxm{
 
+    background-color: #000000;
+}
 .image-bounce {
     animation-duration: 3s;
     animation-timing-function: ease;
