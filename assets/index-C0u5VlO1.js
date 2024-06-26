@@ -86354,7 +86354,7 @@ const BuyCard = ()=>{
                 lg: 2.5,
                 children: jsxRuntimeExports.jsxs(Button$1, {
                     onClick: ()=>{
-                        t0.id === 1 ? (W0({
+                        t0.id === 8453 ? (W0({
                             icon: card,
                             name: "Card",
                             chainid: 8453
