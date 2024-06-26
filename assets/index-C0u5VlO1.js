@@ -74010,6 +74010,10 @@ const tokenAbi = [{
 }]
   , preSaleBASEAbi = [{
     inputs: [{
+        internalType: "contract IERC20",
+        name: "_token",
+        type: "address"
+    }, {
         internalType: "address",
         name: "_fundReceiver",
         type: "address"
@@ -74078,7 +74082,7 @@ const tokenAbi = [{
     type: "event"
 }, {
     inputs: [],
-    name: "DAI",
+    name: "USDC",
     outputs: [{
         internalType: "contract IERC20",
         name: "",
@@ -74088,7 +74092,7 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [],
-    name: "USDC",
+    name: "USDT",
     outputs: [{
         internalType: "contract IERC20",
         name: "",
@@ -74122,7 +74126,7 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [],
-    name: "amountRaisedDAI",
+    name: "amountRaisedUSDC",
     outputs: [{
         internalType: "uint256",
         name: "",
@@ -74132,7 +74136,7 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [],
-    name: "amountRaisedUSDC",
+    name: "amountRaisedUSDT",
     outputs: [{
         internalType: "uint256",
         name: "",
@@ -74148,13 +74152,17 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [{
+        internalType: "address",
+        name: "_user",
+        type: "address"
+    }, {
         internalType: "uint256",
-        name: "amount",
+        name: "_tokenAmount",
         type: "uint256"
     }],
-    name: "buyTokenDai",
+    name: "buyTokenCard",
     outputs: [],
-    stateMutability: "nonpayable",
+    stateMutability: "payable",
     type: "function"
 }, {
     inputs: [{
@@ -74168,6 +74176,26 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [{
+        internalType: "uint256",
+        name: "amount",
+        type: "uint256"
+    }],
+    name: "buyTokenUSDT",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    inputs: [],
+    name: "cardboughtAmount",
+    outputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    stateMutability: "view",
+    type: "function"
+}, {
+    inputs: [{
         internalType: "address",
         name: "_addr",
         type: "address"
@@ -74178,25 +74206,13 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [],
-    name: "currentStage",
-    outputs: [{
-        internalType: "uint256",
-        name: "",
-        type: "uint256"
-    }],
-    stateMutability: "view",
+    name: "claimTokens",
+    outputs: [],
+    stateMutability: "nonpayable",
     type: "function"
 }, {
-    inputs: [{
-        internalType: "uint256",
-        name: "_amount",
-        type: "uint256"
-    }, {
-        internalType: "uint256",
-        name: "phaseId",
-        type: "uint256"
-    }],
-    name: "daiToToken",
+    inputs: [],
+    name: "currentStage",
     outputs: [{
         internalType: "uint256",
         name: "",
@@ -74275,6 +74291,16 @@ const tokenAbi = [{
         internalType: "bool",
         name: "",
         type: "bool"
+    }],
+    stateMutability: "view",
+    type: "function"
+}, {
+    inputs: [],
+    name: "mainToken",
+    outputs: [{
+        internalType: "contract IERC20",
+        name: "",
+        type: "address"
     }],
     stateMutability: "view",
     type: "function"
@@ -74495,7 +74521,7 @@ const tokenAbi = [{
         type: "uint256"
     }, {
         internalType: "uint256",
-        name: "_raisedInDai",
+        name: "_raisedInUsdt",
         type: "uint256"
     }],
     name: "updateInfos",
@@ -74528,15 +74554,25 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [{
-        internalType: "address",
-        name: "_USDC",
+        internalType: "contract IERC20",
+        name: "_USDT",
         type: "address"
     }, {
-        internalType: "address",
-        name: "_DAI",
+        internalType: "contract IERC20",
+        name: "_USDC",
         type: "address"
     }],
     name: "updateStableTokens",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    inputs: [{
+        internalType: "address",
+        name: "_token",
+        type: "address"
+    }],
+    name: "updateToken",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function"
@@ -74550,7 +74586,7 @@ const tokenAbi = [{
         name: "phaseId",
         type: "uint256"
     }],
-    name: "usdcToToken",
+    name: "usdtToToken",
     outputs: [{
         internalType: "uint256",
         name: "",
@@ -74571,7 +74607,7 @@ const tokenAbi = [{
         type: "uint256"
     }, {
         internalType: "uint256",
-        name: "dai_balance",
+        name: "usdt_balance",
         type: "uint256"
     }, {
         internalType: "uint256",
@@ -74591,6 +74627,20 @@ const tokenAbi = [{
         type: "uint256"
     }],
     stateMutability: "view",
+    type: "function"
+}, {
+    inputs: [{
+        internalType: "address[]",
+        name: "_addresses",
+        type: "address[]"
+    }, {
+        internalType: "uint256[]",
+        name: "_tokenAmount",
+        type: "uint256[]"
+    }],
+    name: "whitelistAddresses",
+    outputs: [],
+    stateMutability: "nonpayable",
     type: "function"
 }]
   , preSalePOLYGONAbi = [{
