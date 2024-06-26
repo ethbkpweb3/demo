@@ -82236,13 +82236,13 @@ const tokenAbi = [{
     AVALANCH_TESTNET: avalancheFuji.id,
     POLYGON: polygon.id
 }
-  , preSaleAddress = "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D"
+  , preSaleAddress = "0xDB5776fF61383132099f584E69FF1458d1dcd50A"
   , PRESALE_ADDRESS = {
-    [ChainId.ETHEREUM]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
-    [ChainId.BSC]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
-    [ChainId.POLYGON]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
-    [ChainId.AVALANCH]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
-    [ChainId.BASE]: "0x0132e92265b3cc122543bf8760165E83c9b874cB"
+    [ChainId.ETHEREUM]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+    [ChainId.BSC]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+    [ChainId.POLYGON]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+    [ChainId.AVALANCH]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+    [ChainId.BASE]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A"
 }
   , TOKEN_ADDRESS = {
     [ChainId.ETHEREUM]: "0x110429D46Bb2e1E731F390e74E045f86E524ff24",
@@ -85836,28 +85836,28 @@ const BuyCard = ()=>{
             chainId: 1
         })
           , Q0 = await readContract({
-            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
             abi: preSaleBSCAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 56
         })
           , f1 = await readContract({
-            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
             abi: preSalePOLYGONAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 137
         })
           , l1 = await readContract({
-            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
             abi: preSaleAVALANCHAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 43114
         })
           , u1 = await readContract({
-            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
             abi: preSaleBASEAbi,
             functionName: "totalRaised",
             args: [],
@@ -85879,28 +85879,28 @@ const BuyCard = ()=>{
             chainId: 1
         })
           , b1 = await readContract({
-            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
             abi: preSaleBSCAbi,
             functionName: "soldToken",
             args: [],
             chainId: 56
         })
           , M1 = await readContract({
-            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
             abi: preSalePOLYGONAbi,
             functionName: "soldToken",
             args: [],
             chainId: 137
         })
           , j1 = await readContract({
-            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
             abi: preSaleAVALANCHAbi,
             functionName: "soldToken",
             args: [],
             chainId: 43114
         })
           , S1 = await readContract({
-            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
             abi: preSaleBASEAbi,
             functionName: "soldToken",
             args: [],
