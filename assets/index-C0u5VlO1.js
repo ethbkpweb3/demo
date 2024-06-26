@@ -74010,10 +74010,6 @@ const tokenAbi = [{
 }]
   , preSaleBASEAbi = [{
     inputs: [{
-        internalType: "contract IERC20",
-        name: "_token",
-        type: "address"
-    }, {
         internalType: "address",
         name: "_fundReceiver",
         type: "address"
@@ -74082,7 +74078,7 @@ const tokenAbi = [{
     type: "event"
 }, {
     inputs: [],
-    name: "USDC",
+    name: "DAI",
     outputs: [{
         internalType: "contract IERC20",
         name: "",
@@ -74092,7 +74088,7 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [],
-    name: "USDT",
+    name: "USDC",
     outputs: [{
         internalType: "contract IERC20",
         name: "",
@@ -74126,7 +74122,7 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [],
-    name: "amountRaisedUSDC",
+    name: "amountRaisedDAI",
     outputs: [{
         internalType: "uint256",
         name: "",
@@ -74136,7 +74132,7 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [],
-    name: "amountRaisedUSDT",
+    name: "amountRaisedUSDC",
     outputs: [{
         internalType: "uint256",
         name: "",
@@ -74152,17 +74148,13 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [{
-        internalType: "address",
-        name: "_user",
-        type: "address"
-    }, {
         internalType: "uint256",
-        name: "_tokenAmount",
+        name: "amount",
         type: "uint256"
     }],
-    name: "buyTokenCard",
+    name: "buyTokenDai",
     outputs: [],
-    stateMutability: "payable",
+    stateMutability: "nonpayable",
     type: "function"
 }, {
     inputs: [{
@@ -74176,26 +74168,6 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [{
-        internalType: "uint256",
-        name: "amount",
-        type: "uint256"
-    }],
-    name: "buyTokenUSDT",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function"
-}, {
-    inputs: [],
-    name: "cardboughtAmount",
-    outputs: [{
-        internalType: "uint256",
-        name: "",
-        type: "uint256"
-    }],
-    stateMutability: "view",
-    type: "function"
-}, {
-    inputs: [{
         internalType: "address",
         name: "_addr",
         type: "address"
@@ -74206,13 +74178,25 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [],
-    name: "claimTokens",
-    outputs: [],
-    stateMutability: "nonpayable",
+    name: "currentStage",
+    outputs: [{
+        internalType: "uint256",
+        name: "",
+        type: "uint256"
+    }],
+    stateMutability: "view",
     type: "function"
 }, {
-    inputs: [],
-    name: "currentStage",
+    inputs: [{
+        internalType: "uint256",
+        name: "_amount",
+        type: "uint256"
+    }, {
+        internalType: "uint256",
+        name: "phaseId",
+        type: "uint256"
+    }],
+    name: "daiToToken",
     outputs: [{
         internalType: "uint256",
         name: "",
@@ -74291,16 +74275,6 @@ const tokenAbi = [{
         internalType: "bool",
         name: "",
         type: "bool"
-    }],
-    stateMutability: "view",
-    type: "function"
-}, {
-    inputs: [],
-    name: "mainToken",
-    outputs: [{
-        internalType: "contract IERC20",
-        name: "",
-        type: "address"
     }],
     stateMutability: "view",
     type: "function"
@@ -74521,7 +74495,7 @@ const tokenAbi = [{
         type: "uint256"
     }, {
         internalType: "uint256",
-        name: "_raisedInUsdt",
+        name: "_raisedInDai",
         type: "uint256"
     }],
     name: "updateInfos",
@@ -74554,25 +74528,15 @@ const tokenAbi = [{
     type: "function"
 }, {
     inputs: [{
-        internalType: "contract IERC20",
-        name: "_USDT",
+        internalType: "address",
+        name: "_USDC",
         type: "address"
     }, {
-        internalType: "contract IERC20",
-        name: "_USDC",
+        internalType: "address",
+        name: "_DAI",
         type: "address"
     }],
     name: "updateStableTokens",
-    outputs: [],
-    stateMutability: "nonpayable",
-    type: "function"
-}, {
-    inputs: [{
-        internalType: "address",
-        name: "_token",
-        type: "address"
-    }],
-    name: "updateToken",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function"
@@ -74586,7 +74550,7 @@ const tokenAbi = [{
         name: "phaseId",
         type: "uint256"
     }],
-    name: "usdtToToken",
+    name: "usdcToToken",
     outputs: [{
         internalType: "uint256",
         name: "",
@@ -74607,7 +74571,7 @@ const tokenAbi = [{
         type: "uint256"
     }, {
         internalType: "uint256",
-        name: "usdt_balance",
+        name: "dai_balance",
         type: "uint256"
     }, {
         internalType: "uint256",
@@ -74627,20 +74591,6 @@ const tokenAbi = [{
         type: "uint256"
     }],
     stateMutability: "view",
-    type: "function"
-}, {
-    inputs: [{
-        internalType: "address[]",
-        name: "_addresses",
-        type: "address[]"
-    }, {
-        internalType: "uint256[]",
-        name: "_tokenAmount",
-        type: "uint256[]"
-    }],
-    name: "whitelistAddresses",
-    outputs: [],
-    stateMutability: "nonpayable",
     type: "function"
 }]
   , preSalePOLYGONAbi = [{
@@ -82286,13 +82236,13 @@ const tokenAbi = [{
     AVALANCH_TESTNET: avalancheFuji.id,
     POLYGON: polygon.id
 }
-  , preSaleAddress = "0xDB5776fF61383132099f584E69FF1458d1dcd50A"
+  , preSaleAddress = "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29"
   , PRESALE_ADDRESS = {
-    [ChainId.ETHEREUM]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
-    [ChainId.BSC]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
-    [ChainId.POLYGON]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
-    [ChainId.AVALANCH]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
-    [ChainId.BASE]: "0xDB5776fF61383132099f584E69FF1458d1dcd50A"
+    [ChainId.ETHEREUM]: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
+    [ChainId.BSC]: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
+    [ChainId.POLYGON]: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
+    [ChainId.AVALANCH]: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
+    [ChainId.BASE]: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29"
 }
   , TOKEN_ADDRESS = {
     [ChainId.ETHEREUM]: "0x110429D46Bb2e1E731F390e74E045f86E524ff24",
@@ -85886,28 +85836,28 @@ const BuyCard = ()=>{
             chainId: 1
         })
           , Q0 = await readContract({
-            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+            address: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
             abi: preSaleBSCAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 56
         })
           , f1 = await readContract({
-            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+            address: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
             abi: preSalePOLYGONAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 137
         })
           , l1 = await readContract({
-            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+            address: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
             abi: preSaleAVALANCHAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 43114
         })
           , u1 = await readContract({
-            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+            address: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
             abi: preSaleBASEAbi,
             functionName: "totalRaised",
             args: [],
@@ -85929,28 +85879,28 @@ const BuyCard = ()=>{
             chainId: 1
         })
           , b1 = await readContract({
-            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+            address: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
             abi: preSaleBSCAbi,
             functionName: "soldToken",
             args: [],
             chainId: 56
         })
           , M1 = await readContract({
-            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+            address: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
             abi: preSalePOLYGONAbi,
             functionName: "soldToken",
             args: [],
             chainId: 137
         })
           , j1 = await readContract({
-            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+            address: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
             abi: preSaleAVALANCHAbi,
             functionName: "soldToken",
             args: [],
             chainId: 43114
         })
           , S1 = await readContract({
-            address: "0xDB5776fF61383132099f584E69FF1458d1dcd50A",
+            address: "0x28D05d41Bf491530eC59C3eae2F51Cbe14b35a29",
             abi: preSaleBASEAbi,
             functionName: "soldToken",
             args: [],
