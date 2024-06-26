@@ -82236,7 +82236,7 @@ const tokenAbi = [{
     AVALANCH_TESTNET: avalancheFuji.id,
     POLYGON: polygon.id
 }
-  , preSaleAddress = "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D"
+  , preSaleAddress = ""
   , PRESALE_ADDRESS = {
     [ChainId.ETHEREUM]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
     [ChainId.BSC]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
