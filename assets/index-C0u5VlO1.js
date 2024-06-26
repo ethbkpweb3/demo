@@ -82236,13 +82236,13 @@ const tokenAbi = [{
     AVALANCH_TESTNET: avalancheFuji.id,
     POLYGON: polygon.id
 }
-  , preSaleAddress = ""
+  , preSaleAddress = "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D"
   , PRESALE_ADDRESS = {
-    [ChainId.ETHEREUM]: "",
-    [ChainId.BSC]: "",
-    [ChainId.POLYGON]: "",
-    [ChainId.AVALANCH]: "",
-    [ChainId.BASE]: ""
+    [ChainId.ETHEREUM]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+    [ChainId.BSC]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+    [ChainId.POLYGON]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+    [ChainId.AVALANCH]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+    [ChainId.BASE]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D"
 }
   , TOKEN_ADDRESS = {
     [ChainId.ETHEREUM]: "0x110429D46Bb2e1E731F390e74E045f86E524ff24",
@@ -86354,10 +86354,10 @@ const BuyCard = ()=>{
                 lg: 2.5,
                 children: jsxRuntimeExports.jsxs(Button$1, {
                     onClick: ()=>{
-                        t0.id === 8453 ? (W0({
+                        t0.id === 1 ? (W0({
                             icon: card,
                             name: "Card",
-                            chainid: 8453
+                            chainid: 1
                         }),
                         m0(0),
                         y0(0)) : N0("Please Select ETH Network")
