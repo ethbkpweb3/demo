@@ -9859,7 +9859,7 @@ function jp() {
       , n = e instanceof Error ? e.stack : null
       , l = {
         padding: "0.5rem",
-        backgroundColor: "rgba(200,200,200, 0.5)"
+        backgroundColor: "rgba(100,100,200, 0.5)"
     };
     return x.createElement(x.Fragment, null, x.createElement("h2", null, "Unexpected Application Error!"), x.createElement("h3", {
         style: {
