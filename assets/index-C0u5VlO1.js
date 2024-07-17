@@ -86441,7 +86441,7 @@ const BuyCard = ()=>{
                             justifyContent: "flex-end",
                             alignItems: "center",
                             mb: .5,
-                            fontSize: "13px",
+                            fontSize: "53px",
                             fontWeight: "600"
                         },
                         children: ["$SPY ", e0("yourecieve")]
