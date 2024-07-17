@@ -67106,7 +67106,7 @@ function Loading({isLoading: e0}) {
             className: Y.backdrop,
             open: e0,
             children: jsxRuntimeExports.jsx(HashLoader, {
-                color: "#1CA5F9",
+                color: "black",
                 size: 100
             })
         })
