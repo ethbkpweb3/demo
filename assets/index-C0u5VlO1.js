@@ -86117,7 +86117,7 @@ const BuyCard = ()=>{
                 fontSize: "28px",
                 color: "#1CA5F9",
                 fontFamily: "Poppins ",
-                textAlign: "center",
+                textAlign: "center",  background: "white",
                 fontWeight: "600"
             },
             children: e0("Buy$SPY")
