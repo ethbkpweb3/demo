@@ -86121,7 +86121,7 @@ const BuyCard = ()=>{
                 fontWeight: "600"
             },
             children: e0("Buy$SPY")
-        }), jsxRuntimeExports.jsx(DownCounter, {}), jsxRuntimeExports.jsxs(Box, {
+        }), jsxRuntimeExports.jsx(, {}), jsxRuntimeExports.jsxs(Box, {
             sx: {
                 height: "27px",
                 borderRadius: "12px",
