@@ -90298,7 +90298,7 @@ const inputStyle = {
                     src: e0 ? banerbg : banermbg,
                     alt: "",
                     style: {
-                        width: "60%",
+                        width: "90%",
                         height: "70%",
                         objectFit: {
                             xs: "cover",
