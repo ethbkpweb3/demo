@@ -87147,7 +87147,7 @@ const partenrarray = [{
                 children: e0("Roadmap")
             }), jsxRuntimeExports.jsx(Typography, {
                 sx: {
-                    color: "#000",
+                    color: "white",
                     fontSize: "20px",
                     textAlign: "center",
                     fontFamily: "Open Sans",
