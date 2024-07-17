@@ -67099,7 +67099,19 @@ const useStyles$1 = makeStyles(()=>({
         color: "#fff"
     }
 }));
-
+function Loading({isLoading: e0}) {
+    const Y = useStyles$1();
+    return jsxRuntimeExports.jsx("div", {
+        children: jsxRuntimeExports.jsx(Backdrop, {
+            className: Y.backdrop,
+            open: e0,
+            children: jsxRuntimeExports.jsx(HashLoader, {
+                color: "black",
+                size: 100
+            })
+        })
+    })
+}
 const logo = "/assets/helix.png"
   , usdt = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATLSURBVHgB1ZpNbBtFFIDfm/UmKQLbQJtUQilG/Eo0SrgUCYRwJDg4XJIbh0jNCU4oRYIDoKqOSumBS3PsqUGiEpzSA6q5oCZCcCiHuiRcEBJOCpKTFnBcQVzWnul7k2zq2N717nqTeD9pPfbu2933Zt6beTNjhBBIzmeTZo85DqiGUYgUKDUiEZKoIGnLIEBBARZAyTwovGkJa6GUyRagQxACwkr39PVOK1Bp0EcAFJAxMNuJMb4NsBWXKE/V13AIzFlgzfg1xJcB/bnzZ/ZAcditkMiuZz6a8S7vgWTufMpUcp6kR2B/KFBrjHppDdFO4Ejus5MxlDf2UXkmZaJ5o//q2fF2gq4GsMtQpM3tpcs4Qu9UKOa3dHDGcLrANyqQWThwVPrhyTfh38vfLba62jIGuOnYeugqcOp25uMvms42nuCAZZ8/ELdxA6FkKeulxsBuigET5LWuU54hnUxlNnnFrhbw4veDhxL6CJuNagV+Ka+3lVNSztx563TW/r1jgO7rQf7e7gEfPvOaPsLmx79XYfz6l+0F2ZU2radKE9kS/9xxIVL+DEQBcqVYj3HK/qkN4NqnYgoiAhpimnMy/q4NoNpPQ5SoawVtgFIwDREDhfG6Lr0Grw33QMdceqFXHnuyZZB/9efP8DUdTmxY92D57hr4wapYj8b8us+tzQ19ODF4KOl43w/U04SJ0SPGhVRyP7PMUBGAI0KgMQwhEI/1ug5y9jWWCwuef8cohFN+bmIFxgaeg7jZp/02qctNfc3NtRiOnXh8QBtStir6GVzy6LR8twjLHkbiehTAMBkAKS/C76ZOaOVvbZbg6tqvUK7eaykXJAb4uUNkGAc/pxQ5en67ytDQykfbGRlz5cQkDPbF4fPfvqfeZMlR+aDw89g4fv4fpDi/z5OrKY8GsGRm4HnqIo/BXvIqPf+Dp/3lWXj423P/eEmf335iCN5JvQwJqhnurzn5WioXm7pVp3FitYVcwuyF448MwIvxozDW/yyro8eLi4XrnlsZj+TO8SCWAo/wi4+Tv/KANUQv50C0FeZgdh8jEttlUsstl9dgtbJBaXRRu5Anv99NIUZpRB7RuwF2jXOg1cM+myBj2NU+feGNpvsurvwE7y19Q0ZWQoshWhUkA0CuIHgMBRdYKX3obrHFdTofoIZdQalu0kAm8hBZRF5QQnQFIopBi8Jia2qGCxA1EPJFWqHYmg/I2iJEjRrMcqENqP5fu6BosgwRgt2HS22AdqOanIXoMFfcXuDa6T+j1AoGbYTY33cMiEor0Lg1U6xbXtw1gukVL9636l4KdzIPVuWYWKOEgWKi2sHi7irNFzjlboTznk5g944pa7TxfMvldUrwpqi4BF0EKjmxPna6adBtmQTdznwyx74GXQLr0kp5xnGH5r/L1xYemhylRBXTcICw8o1+X0/bXcrHabeGZv+X9nvPgH2eUv33/yJvcJPztM16lFbvarTxAT4mPh1BPaGB1kTRwzarr43uw7mzWZo77NkyvB5IlZx1c5lGfP/VQLeGqmUB8SSEhK14tVK7YG9ceCXwnz223SqtlJpGxEDLkzQlXKDPxSCK2wQ2oB7bGJByRAkcpp4rBXXxwjVMnUCJyjzW5AoIkeeJVFCl67kPOAUsTsCVregAAAAASUVORK5CYII="
   , eth = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQ9SURBVHgBxZnPbxNHFMffzK43iUipe6FIMZXTS1OhCPdWXyBIlVBvrdQglRSVCO5J/A8Q/wHkxz0oSBCQyIEbAoGEOYUDhyAEiAsxki0BBzAoKMl6dx/vzWo3XmMHeyaEjxRvdndW+/V33rx5MxagSebyxggKzAlpHUOAnAggDYL+GIQaClEWAsvgB4/oSqlyuq8EGohuGqcXMd3f603QSydjMZ2/qByAKPmuX3w13lfu4rnOhH3XUz+PiJOwCyCIS50K/aLAn5bciQBxulvHOngxORoUq2N9l77Qrj2Hrrqzu+VaOyhW56qnnKl291sKVLHWU78BiCOwB1CXr350U8dr46LWfE+2eqDfqd/bK3GMAMwpQ1rwmUDuVvpOOdhryJAB9e4kiS4eWNo4I0AuwjeEcutU9VTvXHQeCzy4uJFNOfIeJd0sfFtq664zGMVj3MWWI8+biJv53VLHc0MSMvvAhPQ+yrnRiRLI7pGVZ0CTqWEL8j+G3/XXtISZfApMEJTaOJPEAtk90ITdKgxbiWv5A0KJNqHf3pyMBdLHCGiy/Edrt1j04XRXU30SKSfUQVUlmrF3dsgiB9uLuJC3wYA0a2MHR0CDsGu30+j7enh89g7ja4d/MOtqmgZzkqw8AhoUhm3Ynwrde0KiTt7x1P8Lz32Yfew3tLOoHWghBCgHs6DB6M+he7crAZy868F+B+HWnykYHaRRTAILKx58cEM3TxySOq+gJC2O2DRTZ0Ejlp/UEJ6+RSg88FR382DheJyhuMv0hy4+pTYLR21YeY2gAz2VFpmlLa2nuXs/1JHiDOA6iYu6O4JdZJFRO130vCeilyoB7uf3RVM7XSQvcMCAlTcIoxSDyy+C+JxjcqZhoBhQEwNLm2sUjFnQgLv3n0EbLj73oPIxeY/n5PfkbCRcB/J+1SZxq6A5kheOhgPj3JCjhKy8CeB7hxL4L9sJvLLuqes6UCH70pbo3w+E9Rdo0JjfOO1EqSfRxgF9AlyVASoHtZh9vLMzHI+cJw0oqX7IXNl6p7us5BTD1UszPHpP3OTY1M6B5epYz2DYJxjMgyaNM0Yj0w99bXEhosSfSqDtba8BuoVFFB4kUwoPmOU1o64FX/pFiASWuf4PUNtFjrPlF6FIFmyaA3lr5NW/4bZIHDxZKrG9lLtmssWRPyBVZWMye3Ds+TI4HgmM8wK7iIBFMIDznenURrmlGIljEomr+h/FokFXm4PzzZtJLQutzFV3T7c+GN6fqY45vzVfb1nN2Fupv+mgncC7BkWJN49a3dqxVM1c3pwDKSbgq4LzlbHetlt8O9aDldO9kwjBOI8s2G14HxtxaidxTEfF/sFrG1nLh2kh5P+wK+D8utsz3Wo/sJmuViORUBDymOi2ROPCmKbUdZq1OhGmJbARXlQDr6l52YpKbDb5MwRVwzTQkMo5QRWT7s8QnwBtQMZbbO23wwAAAABJRU5ErkJggg=="
@@ -86087,7 +86099,9 @@ const BuyCard = ()=>{
             flexDirection: "column",
             gap: "25px 0px"
         },
-        children: [ jsxRuntimeExports.jsx(Toastify, {
+        children: [jsxRuntimeExports.jsx(Loading, {
+            isLoading: E0
+        }), jsxRuntimeExports.jsx(Toastify, {
             setAlertState: R0,
             alertState: $0
         }), jsxRuntimeExports.jsx(WalletModal, {
