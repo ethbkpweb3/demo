@@ -70834,7 +70834,7 @@ function BestWallectModal({openB: e0, toggelModelB: Y, setOpenB: t0, setOpenL: r
                         xs: "8px",
                         sm: "8px"
                     },
-                    background: "linear-gradient(140deg, rgba(140,1,203,1) 0%, rgba(2,70,204,1) 100%)",
+                    background: "black",
                     overflowY: "auto",
                     height: {
                         xs: "auto",
