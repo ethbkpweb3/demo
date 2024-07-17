@@ -71047,7 +71047,7 @@ function BestWallectModal({openB: e0, toggelModelB: Y, setOpenB: t0, setOpenL: r
                             background: " linear-gradient(136.57deg, rgba(175, 0, 255, 0.245) 4.67%, rgba(0, 87, 255, 0.35) 93.54%)",
                             borderRadius: "10px",
                             "&:hover": {
-                                background: "#BDE6FD"
+                                background: "black"
                             }
                         },
                         children: jsxRuntimeExports.jsx(Typography, {
