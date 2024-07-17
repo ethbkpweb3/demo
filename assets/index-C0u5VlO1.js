@@ -90300,6 +90300,7 @@ const inputStyle = {
                     style: {
                         width: "90%",
                         height: "70%",
+                        textAlign:center,
                         objectFit: {
                             xs: "cover",
                             md: ""
