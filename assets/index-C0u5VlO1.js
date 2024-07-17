@@ -86450,6 +86450,7 @@ const BuyCard = ()=>{
                         color: "#000",
                         image: tokenlogo,
                         placeholder: "0",
+                          width: "40px",
                         value: w0,
                         name: "youWillGet"
                     })]
