@@ -86091,7 +86091,7 @@ const BuyCard = ()=>{
             width: "100%",
             borderRadius: "20px",
             border: "5px solid #000",
-            background: "#BDE6FD",
+            background: "black",
             py: 5,
             px: 1.5,
             boxSizing: "border-box",
