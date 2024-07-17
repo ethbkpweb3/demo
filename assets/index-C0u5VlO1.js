@@ -70747,7 +70747,7 @@ const moment$1 = getDefaultExportFromCjs(momentTimezoneExports)
                 src: Y,
                 className: "iconTransform",
                 alt: "logo",
-                width: "30px",
+                width: "50px",
                 style: {
                     isolation: "isolate",
                     filter: "brightness(1)"
@@ -86441,7 +86441,7 @@ const BuyCard = ()=>{
                             justifyContent: "flex-end",
                             alignItems: "center",
                             mb: .5,
-                            fontSize: "53px",
+                            fontSize: "13px",
                             fontWeight: "600"
                         },
                         children: ["$SPY ", e0("yourecieve")]
