@@ -86131,7 +86131,7 @@ const BuyCard = ()=>{
             },
             children: [jsxRuntimeExports.jsxs(Typography, {
                 sx: {
-                    color: "#1CA5F9",
+                    color: "black",
                     fontWeight: "bold",
                     textAlign: "center",
                     fontSize: "18px"
