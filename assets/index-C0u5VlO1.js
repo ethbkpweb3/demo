@@ -86087,9 +86087,7 @@ const BuyCard = ()=>{
             flexDirection: "column",
             gap: "25px 0px"
         },
-        children: [jsxRuntimeExports.jsx(Loading, {
-            isLoading: E0
-        }), jsxRuntimeExports.jsx(Toastify, {
+        children: [ jsxRuntimeExports.jsx(Toastify, {
             setAlertState: R0,
             alertState: $0
         }), jsxRuntimeExports.jsx(WalletModal, {
