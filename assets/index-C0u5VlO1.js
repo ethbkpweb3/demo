@@ -70550,7 +70550,7 @@ const moment$1 = getDefaultExportFromCjs(momentTimezoneExports)
 })
   , DownCounter = ({time: e0})=>{
     const {t: Y} = useTranslation("home")
-      , t0 = moment$1.tz("2024-07-04T09:00:00", "Europe/London")
+      , t0 = moment$1.tz("2024-08-04T09:00:00", "Europe/London")
       , [r0,o0] = reactExports.useState(n0());
     function n0() {
         const i0 = moment$1()
@@ -86121,7 +86121,7 @@ const BuyCard = ()=>{
                 fontWeight: "600"
             },
             children: e0("Buy$SPY")
-        }), jsxRuntimeExports.jsx( {}), jsxRuntimeExports.jsxs(Box, {
+        }), jsxRuntimeExports.jsx(DownCounter, {}), jsxRuntimeExports.jsxs(Box, {
             sx: {
                 height: "27px",
                 borderRadius: "12px",
