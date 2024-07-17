@@ -70747,7 +70747,7 @@ const moment$1 = getDefaultExportFromCjs(momentTimezoneExports)
                 src: Y,
                 className: "iconTransform",
                 alt: "logo",
-                width: "50px",
+                width: "30px",
                 style: {
                     isolation: "isolate",
                     filter: "brightness(1)"
