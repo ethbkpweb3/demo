@@ -87134,7 +87134,7 @@ const partenrarray = [{
         children: [jsxRuntimeExports.jsxs(Box, {
             children: [jsxRuntimeExports.jsx(Typography, {
                 sx: {
-                    color: "#000",
+                    color: "white",
                     fontSize: {
                         xs: "48px",
                         sm: "48px",
