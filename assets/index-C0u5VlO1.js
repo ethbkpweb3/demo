@@ -106817,7 +106817,7 @@ const BuyCard = () => {
             background: "white",
             fontWeight: "600",
           },
-          children: e0("Buy$SPY"),
+          children: e0("Buy$HEX"),
         }),
         jsxRuntimeExports.jsx(DownCounter, {}),
         jsxRuntimeExports.jsxs(Box, {
@@ -106859,7 +106859,7 @@ const BuyCard = () => {
             },
             fontFamily: "Poppins",
           },
-          children: [e0("youPurchase"), " $SPY= ", B0],
+          children: [e0("youPurchase"), " $HEX= ", B0],
         }),
         jsxRuntimeExports.jsxs(Box, {
           sx: {
@@ -106884,7 +106884,7 @@ const BuyCard = () => {
                 fontSize: "20px",
                 color: "#1CA5F9",
               },
-              children: ["1 $SPY = $", l0.toFixed(5)],
+              children: ["1 $HEX = $", l0.toFixed(18)],
             }),
             jsxRuntimeExports.jsx(Box, {
               sx: {
@@ -107247,7 +107247,7 @@ const BuyCard = () => {
                         fontSize: "13px",
                         fontWeight: "600",
                       },
-                      children: ["$SPY ", e0("yourecieve")],
+                      children: ["$HEX ", e0("yourecieve")],
                     }),
                     jsxRuntimeExports.jsx(CustomField, {
                       readOnly: !0,
@@ -108683,7 +108683,7 @@ const CopyToClipboard$1 = getDefaultExportFromCjs(lib),
       a0 = [
         {
           title: e0("address"),
-          text: "0x110429D46Bb2e1E731F390e74E045f86E524ff24",
+          text: "LAUNCHSOON",
           text2: e0("addressp"),
           border: "3px solid #fff",
           borderR: "3px solid #fff",
@@ -108691,7 +108691,7 @@ const CopyToClipboard$1 = getDefaultExportFromCjs(lib),
           fsize: "12px",
         },
         {
-          title: "5",
+          title: "18",
           text: e0("DECIMAL"),
           border: "3px solid #fff",
         },
@@ -108704,7 +108704,7 @@ const CopyToClipboard$1 = getDefaultExportFromCjs(lib),
           borderRR: "3px solid #fff",
         },
         {
-          title: "$SPY",
+          title: "$HEX",
           text: e0("SYMBOL"),
           borderT: "3px solid #fff",
         },
