@@ -82261,7 +82261,7 @@ const logo = "/assets/helix.png",
   p7 = "/assets/p7-BsFZxPdS.png",
   p8 = "/assets/p8-Cvlw4Q8P.png",
   p9 = "/assets/p9-DIegIJhl.png",
-  banermbg = "/assets/banermbg-BWVi4lNn.png",
+  banermbg = "/assets/banerbg-B1OY5MTG.png",
   h1 =
     "data:image/svg+xml,%3csvg%20width='138'%20height='114'%20viewBox='0%200%20138%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='46'%20cy='46'%20r='46'%20fill='%231CA5F9'/%3e%3cpath%20d='M49.922%2076.324C49.922%2067.7893%2051.4513%2061.1047%2054.51%2056.27C57.618%2051.4353%2062.7487%2049.018%2069.902%2049.018C77.0553%2049.018%2082.1613%2051.4353%2085.22%2056.27C88.328%2061.1047%2089.882%2067.7893%2089.882%2076.324C89.882%2084.908%2088.328%2091.642%2085.22%2096.526C82.1613%20101.41%2077.0553%20103.852%2069.902%20103.852C62.7487%20103.852%2057.618%20101.41%2054.51%2096.526C51.4513%2091.642%2049.922%2084.908%2049.922%2076.324ZM79.67%2076.324C79.67%2072.6733%2079.4233%2069.6147%2078.93%2067.148C78.486%2064.632%2077.5487%2062.5847%2076.118%2061.006C74.7367%2059.4273%2072.6647%2058.638%2069.902%2058.638C67.1393%2058.638%2065.0427%2059.4273%2063.612%2061.006C62.2307%2062.5847%2061.2933%2064.632%2060.8%2067.148C60.356%2069.6147%2060.134%2072.6733%2060.134%2076.324C60.134%2080.0733%2060.356%2083.2307%2060.8%2085.796C61.244%2088.312%2062.1813%2090.3593%2063.612%2091.938C65.0427%2093.4673%2067.1393%2094.232%2069.902%2094.232C72.6647%2094.232%2074.7613%2093.4673%2076.192%2091.938C77.6227%2090.3593%2078.56%2088.312%2079.004%2085.796C79.448%2083.2307%2079.67%2080.0733%2079.67%2076.324ZM96.5038%2059.6V50.054H114.338V104H103.682V59.6H96.5038Z'%20fill='%231E2330'/%3e%3c/svg%3e",
   h2 =
@@ -107544,7 +107544,7 @@ const BuyCard = () => {
                 ],
               }),
               jsxRuntimeExports.jsx(Button$1, {
-                href: "https://spacepay.co.uk/wp-content/uploads/2024/04/Whitepaper-.pdf",
+                href: "https://helixbyte.io/HexaByte%20Whitepaper.pdf",
                 target: "_blank",
                 sx: {
                   background: "#fff",
@@ -111030,26 +111030,7 @@ const HowToBuy = () => {
           value: e0("theading4"),
           text: e0("tpera4"),
         },
-      ],
-      t0 = [
-        {
-          image: t5,
-          value: e0("theading5"),
-          text: e0("tpera5"),
-          border: "3px solid white",
-        },
-        {
-          image: t6,
-          value: e0("theading6"),
-          text: e0("tpera6"),
-          border: "3px solid white",
-        },
-        {
-          image: t7,
-          value: e0("theading7"),
-          text: e0("tpera7"),
-        },
-      ];
+      ]   ;
     return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {
       children: jsxRuntimeExports.jsxs(Container, {
         sx: {
@@ -111990,7 +111971,7 @@ const multiLanguage = [
           fontSize: "27px",
         },
       }),
-      link: "https://t.me/SpacePayTG",
+      link: "https://t.me/",
     },
     {
       icon: jsxRuntimeExports.jsx(default_1$1, {
@@ -111998,7 +111979,7 @@ const multiLanguage = [
           color: "#1E2330",
         },
       }),
-      link: "https://x.com/spacepayltd?s=21",
+      link: "https://x.com/",
     },
   ],
   Navbar = () => {
@@ -112918,7 +112899,7 @@ function WebsiteDisclamer({ openW: e0, toggelModelW: Y, setOpenW: t0 }) {
             my: 5,
           },
           children:
-            "Our website is not tailored for UK audiences and is not designed in compliance with the UK Financial Promotions Regime. If you’re visiting from the UK, we kindly request that you exit this site promptly.",
+            "Welcome to HelixByte, The HelixByte network is an open sourceblockchainused for a variety of payment andremittanceapplications. Learn about the non-profit HelixByteFoundation and the fundamentals of howthenetworkworks. ",
         }),
         jsxRuntimeExports.jsxs(Box, {
           sx: {
