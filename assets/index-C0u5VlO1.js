@@ -111030,7 +111030,10 @@ const HowToBuy = () => {
           value: e0("theading4"),
           text: e0("tpera4"),
         },
-      ]   ;
+      ],
+      t0 = [
+
+      ];
     return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {
       children: jsxRuntimeExports.jsxs(Container, {
         sx: {
