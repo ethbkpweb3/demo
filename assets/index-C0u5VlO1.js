@@ -87103,7 +87103,7 @@ const partenrarray = [{
     }, {
         img: r2,
         title: e0("r2Heading"),
-        text: ("r2p")
+        text: e0("r2p")
     }, {
         img: r3,
         title: e0("r3Heading"),
