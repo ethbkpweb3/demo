@@ -111464,7 +111464,7 @@ const HowToBuy = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                color: "#1CA5F9",
+                color: "#272828",
                 "&:hover": {
                   background: "#fff",
                 },
