@@ -106884,7 +106884,7 @@ const BuyCard = () => {
                 fontSize: "20px",
                 color: "#1CA5F9",
               },
-              children: ["1 $HEX = $", l0.toFixed(18)],
+              children: ["1 $HEX = $", 0.001],
             }),
             jsxRuntimeExports.jsx(Box, {
               sx: {
