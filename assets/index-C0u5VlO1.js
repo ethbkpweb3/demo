@@ -106836,7 +106836,7 @@ const BuyCard = () => {
                 textAlign: "center",
                 fontSize: "18px",
               },
-              children: ["USDT RAISED: $", q0(D0)],
+              children: ["USDT RAISED: $100", q0(D0)],
             }),
             jsxRuntimeExports.jsx("progress", {
               id: "file",
@@ -106884,7 +106884,7 @@ const BuyCard = () => {
                 fontSize: "20px",
                 color: "#1CA5F9",
               },
-              children: ["1 $HEX = $", 0.001],
+              children: ["1 $HEX = $0.001", ],
             }),
             jsxRuntimeExports.jsx(Box, {
               sx: {
