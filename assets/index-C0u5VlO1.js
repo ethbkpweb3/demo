@@ -111654,7 +111654,7 @@ const inputStyle = {
                 sx: {
                   display: "flex",
                   flexDirection: "column",
-                  gap: "40px 0px",
+                  gap: "10px 0px",
                 },
                 children: [
                   jsxRuntimeExports.jsx(Box, {
@@ -111671,7 +111671,7 @@ const inputStyle = {
                     },
                     children: [
                       jsxRuntimeExports.jsx(Link$2, {
-                        to: "https://t.me/SpacePayTG",
+                        to: "https://t.me/",
                         target: "_blank",
                         style: {
                           color: "#fff",
@@ -111687,7 +111687,7 @@ const inputStyle = {
                         }),
                       }),
                       jsxRuntimeExports.jsx(Link$2, {
-                        to: "https://x.com/spacepayltd?s=21",
+                        to: "https://x.com/",
                         target: "_blank",
                         style: {
                           color: "#fff",
