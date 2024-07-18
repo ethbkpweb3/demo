@@ -10,7 +10,9 @@
 .cool-link:hover:after {
     width: 100%
 }
-
+.css-yburt7{
+    color: #1ca5f9;
+}
 .wallet-connect-modal {
     z-index: 9999!important
 }
