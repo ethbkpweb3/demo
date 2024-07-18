@@ -79326,7 +79326,7 @@ const theme = responsiveFontSizes(theme1),
   Parent = () =>
     jsxRuntimeExports.jsx(Box, {
       sx: {
-        background: "#E0E0E0",
+        background: "#808080",
       },
       children: jsxRuntimeExports.jsx(Box, {
         children: jsxRuntimeExports.jsx(Box, {
