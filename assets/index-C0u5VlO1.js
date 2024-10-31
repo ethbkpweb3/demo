@@ -79326,7 +79326,7 @@ const theme = responsiveFontSizes(theme1),
   Parent = () =>
     jsxRuntimeExports.jsx(Box, {
       sx: {
-        background: "#808080",
+        background: "#45DFF9",
       },
       children: jsxRuntimeExports.jsx(Box, {
         children: jsxRuntimeExports.jsx(Box, {
@@ -82216,7 +82216,7 @@ const logo = "/assets/helix.png",
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGaSURBVHgBvZZNUsJAEIVfN1WW7jhCPAG6UnZ4Ao4gNxAPoEzKC+AJyBH0BOoKXYknMN6AneBi2p5JEIrwV5jMV0WKClR/1TOT9CNsw7zXwd8dBjdE0NI79fyj0AgkqUAeYfEM00w3laJNEq79XImV7rz4ZoiQWCvxOulKGd+9qgRmV8kSqZAKb5tJoW5R9NZTUX9PkSMioYGrs/wDFUViUBLEZOzNWVyUmWGHiAYoGV2la8Tn/bnMDCMVPem3CKVDY5GDY5jTsd8zBvWqETlE937S9dq8q09UStad66yFytHuZNphArcRghoaul0SIQCkrzq3jCcIAtUZwRAvGyMQIWUjFpEXBEDEfrFeRwgB04Me/WmCEEupk5xhLvRVIveoENEJ7qZ3fvQnbgRU1V0KFxUwm9SuO4sYFeAjQp5J5g+1DjhdzlKFvt5CFikGHjM0OnJ6+CdeZJpm8d7qKJdFhH0HarYleRTYLsuEkbuq9BK7SvypPuy7CLDqD7S1RCZt6UPZ1mdFp/rflNDieoJZkzDsB+xRsk4y4xe246a8stIffwAAAABJRU5ErkJggg==",
   t7 =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGxSURBVHgBvZZNTsJAFMf/8xo/Y0wbPQDu3IAcARdGcEM8gdwAPAH0BuUE9gbqiuhGvEGtG3fi3qRdqQl2xtcKDQoFom1/SdPPzK+vM33vCSygcOnp2xuyoUAHQqACAR2Kt28cBQwgg+shtP5TzRjMG0vMlWyhyQO3JgafixKwhwHMJOlMWenWa/Kus6zkFwMlA/OxtmsvlJVuvHYk+i+EjntkmImy1EQJwlhW7L02BGkXSBslz93qjhXL9nteYZVwx4cFpI9Pb9hzTg2fwrMVDe2MRCG63JSt8ECMonpGtkTR0QqCCrJHl5wYCKTVkQOCMxCJ7ObqB5xdKuECKSMfdEJ+sEzAR04QJ9t8ZAIOQcp75IFUL+FndJADSokrojWy85g3DeiTc2j4CGQXGSIUbIerd7T0aZ2sDKMbsCyqaZEsiu4TJjJASZjOqCeJf2r3xLAgUxdyL2LY45PpHqTndfgV2khB5B4bnckLM7urYs/jFuGPBTWce/5CbtWwpm8lUOaiKiE5SjrDspIAXfqAFbYAsx9ZQCgNwJ0woT4qR+V4cE51SqHP1x/onZd3gmTMF9jAmCbMk5opAAAAAElFTkSuQmCC",
-  logowhite = "/assets/helixfooterlogo.png",
+  logowhite = "/assets/helix.png",
   faqbg = "/assets/faqbg-78HqMA0Q.png",
   tokenlogo = "/assets/hex.png",
   Vector =
@@ -82261,7 +82261,7 @@ const logo = "/assets/helix.png",
   p7 = "/assets/p7-BsFZxPdS.png",
   p8 = "/assets/p8-Cvlw4Q8P.png",
   p9 = "/assets/p9-DIegIJhl.png",
-  banermbg = "/assets/banerbg-B1OY5MTG.png",
+  banermbg = "/assets/banermbg-BWVi4lNn.png",
   h1 =
     "data:image/svg+xml,%3csvg%20width='138'%20height='114'%20viewBox='0%200%20138%20114'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='46'%20cy='46'%20r='46'%20fill='%231CA5F9'/%3e%3cpath%20d='M49.922%2076.324C49.922%2067.7893%2051.4513%2061.1047%2054.51%2056.27C57.618%2051.4353%2062.7487%2049.018%2069.902%2049.018C77.0553%2049.018%2082.1613%2051.4353%2085.22%2056.27C88.328%2061.1047%2089.882%2067.7893%2089.882%2076.324C89.882%2084.908%2088.328%2091.642%2085.22%2096.526C82.1613%20101.41%2077.0553%20103.852%2069.902%20103.852C62.7487%20103.852%2057.618%20101.41%2054.51%2096.526C51.4513%2091.642%2049.922%2084.908%2049.922%2076.324ZM79.67%2076.324C79.67%2072.6733%2079.4233%2069.6147%2078.93%2067.148C78.486%2064.632%2077.5487%2062.5847%2076.118%2061.006C74.7367%2059.4273%2072.6647%2058.638%2069.902%2058.638C67.1393%2058.638%2065.0427%2059.4273%2063.612%2061.006C62.2307%2062.5847%2061.2933%2064.632%2060.8%2067.148C60.356%2069.6147%2060.134%2072.6733%2060.134%2076.324C60.134%2080.0733%2060.356%2083.2307%2060.8%2085.796C61.244%2088.312%2062.1813%2090.3593%2063.612%2091.938C65.0427%2093.4673%2067.1393%2094.232%2069.902%2094.232C72.6647%2094.232%2074.7613%2093.4673%2076.192%2091.938C77.6227%2090.3593%2078.56%2088.312%2079.004%2085.796C79.448%2083.2307%2079.67%2080.0733%2079.67%2076.324ZM96.5038%2059.6V50.054H114.338V104H103.682V59.6H96.5038Z'%20fill='%231E2330'/%3e%3c/svg%3e",
   h2 =
@@ -102466,19 +102466,19 @@ const tokenAbi = [
     AVALANCH_TESTNET: avalancheFuji.id,
     POLYGON: polygon.id,
   },
-  preSaleAddress = "0x341E9a33146858a766e001b850c5989bcD384E0C",
+  preSaleAddress = "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
   PRESALE_ADDRESS = {
-    [ChainId.ETHEREUM]: "0x341E9a33146858a766e001b850c5989bcD384E0C",
-    [ChainId.BSC]: "0x341E9a33146858a766e001b850c5989bcD384E0C",
-    [ChainId.POLYGON]: "0x341E9a33146858a766e001b850c5989bcD384E0C",
-    [ChainId.AVALANCH]: "0x341E9a33146858a766e001b850c5989bcD384E0C",
-    [ChainId.BASE]: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+    [ChainId.ETHEREUM]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+    [ChainId.BSC]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+    [ChainId.POLYGON]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+    [ChainId.AVALANCH]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
+    [ChainId.BASE]: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
   },
   TOKEN_ADDRESS = {
-    [ChainId.ETHEREUM]: "0x38283817fa1CD743CD0a6816258ce55F8FB37Ee3",
-    [ChainId.SEPOLIA]: "0x38283817fa1CD743CD0a6816258ce55F8FB37Ee3",
-    [ChainId.POLYGON]: "0x38283817fa1CD743CD0a6816258ce55F8FB37Ee3",
-    [ChainId.BSC]: "0x38283817fa1CD743CD0a6816258ce55F8FB37Ee3",
+    [ChainId.ETHEREUM]: "0x110429D46Bb2e1E731F390e74E045f86E524ff24",
+    [ChainId.SEPOLIA]: "0xE29f83F87a1818d9Bd3e8EBbB0cb3d5556B6eA1e",
+    [ChainId.POLYGON]: "0xE29f83F87a1818d9Bd3e8EBbB0cb3d5556B6eA1e",
+    [ChainId.BSC]: "0xE29f83F87a1818d9Bd3e8EBbB0cb3d5556B6eA1e",
   },
   USDC_ADDRESS = {
     [ChainId.ETHEREUM]: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -106458,28 +106458,28 @@ const BuyCard = () => {
             chainId: 1,
           }),
           Q0 = await readContract({
-            address: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
             abi: preSaleBSCAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 56,
           }),
           f1 = await readContract({
-            address: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
             abi: preSalePOLYGONAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 137,
           }),
           l1 = await readContract({
-            address: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
             abi: preSaleAVALANCHAbi,
             functionName: "totalRaised",
             args: [],
             chainId: 43114,
           }),
           u1 = await readContract({
-            address: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
             abi: preSaleBASEAbi,
             functionName: "totalRaised",
             args: [],
@@ -106501,28 +106501,28 @@ const BuyCard = () => {
             chainId: 1,
           }),
           b1 = await readContract({
-            address: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
             abi: preSaleBSCAbi,
             functionName: "soldToken",
             args: [],
             chainId: 56,
           }),
           M1 = await readContract({
-            address: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
             abi: preSalePOLYGONAbi,
             functionName: "soldToken",
             args: [],
             chainId: 137,
           }),
           j1 = await readContract({
-            address: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
             abi: preSaleAVALANCHAbi,
             functionName: "soldToken",
             args: [],
             chainId: 43114,
           }),
           S1 = await readContract({
-            address: "0x341E9a33146858a766e001b850c5989bcD384E0C",
+            address: "0x5cc0103c10b74D2865f778Da3321e629e44B9f6D",
             abi: preSaleBASEAbi,
             functionName: "soldToken",
             args: [],
@@ -106836,7 +106836,7 @@ const BuyCard = () => {
                 textAlign: "center",
                 fontSize: "18px",
               },
-              children: ["USDT RAISED: $100", q0(D0)],
+              children: ["USDT RAISED: $", q0(D0)],
             }),
             jsxRuntimeExports.jsx("progress", {
               id: "file",
@@ -106884,7 +106884,7 @@ const BuyCard = () => {
                 fontSize: "20px",
                 color: "#1CA5F9",
               },
-              children: ["1 $HEX = $0.001", ],
+              children: ["1 $HEX = $", l0.toFixed(18)],
             }),
             jsxRuntimeExports.jsx(Box, {
               sx: {
@@ -107544,7 +107544,7 @@ const BuyCard = () => {
                 ],
               }),
               jsxRuntimeExports.jsx(Button$1, {
-                href: "https://helixbyte.io/HexaByte%20Whitepaper.pdf",
+                href: "https://spacepay.co.uk/wp-content/uploads/2024/04/Whitepaper-.pdf",
                 target: "_blank",
                 sx: {
                   background: "#fff",
@@ -111032,7 +111032,23 @@ const HowToBuy = () => {
         },
       ],
       t0 = [
-
+        {
+          image: t5,
+          value: e0("theading5"),
+          text: e0("tpera5"),
+          border: "3px solid white",
+        },
+        {
+          image: t6,
+          value: e0("theading6"),
+          text: e0("tpera6"),
+          border: "3px solid white",
+        },
+        {
+          image: t7,
+          value: e0("theading7"),
+          text: e0("tpera7"),
+        },
       ];
     return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {
       children: jsxRuntimeExports.jsxs(Container, {
@@ -111464,7 +111480,7 @@ const HowToBuy = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                color: "#272828",
+                color: "#1CA5F9",
                 "&:hover": {
                   background: "#fff",
                 },
@@ -111638,7 +111654,7 @@ const inputStyle = {
                 sx: {
                   display: "flex",
                   flexDirection: "column",
-                  gap: "10px 0px",
+                  gap: "40px 0px",
                 },
                 children: [
                   jsxRuntimeExports.jsx(Box, {
@@ -111655,7 +111671,7 @@ const inputStyle = {
                     },
                     children: [
                       jsxRuntimeExports.jsx(Link$2, {
-                        to: "https://t.me/",
+                        to: "https://t.me/SpacePayTG",
                         target: "_blank",
                         style: {
                           color: "#fff",
@@ -111671,7 +111687,7 @@ const inputStyle = {
                         }),
                       }),
                       jsxRuntimeExports.jsx(Link$2, {
-                        to: "https://x.com/",
+                        to: "https://x.com/spacepayltd?s=21",
                         target: "_blank",
                         style: {
                           color: "#fff",
@@ -111974,7 +111990,7 @@ const multiLanguage = [
           fontSize: "27px",
         },
       }),
-      link: "https://t.me/",
+      link: "https://t.me/SpacePayTG",
     },
     {
       icon: jsxRuntimeExports.jsx(default_1$1, {
@@ -111982,7 +111998,7 @@ const multiLanguage = [
           color: "#1E2330",
         },
       }),
-      link: "https://x.com/",
+      link: "https://x.com/spacepayltd?s=21",
     },
   ],
   Navbar = () => {
@@ -112902,7 +112918,7 @@ function WebsiteDisclamer({ openW: e0, toggelModelW: Y, setOpenW: t0 }) {
             my: 5,
           },
           children:
-            "Welcome to HelixByte, The HelixByte network is an open sourceblockchainused for a variety of payment andremittanceapplications. Learn about the non-profit HelixByteFoundation and the fundamentals of howthenetworkworks. ",
+            "Our website is not tailored for UK audiences and is not designed in compliance with the UK Financial Promotions Regime. If you’re visiting from the UK, we kindly request that you exit this site promptly.",
         }),
         jsxRuntimeExports.jsxs(Box, {
           sx: {
